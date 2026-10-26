@@ -99,10 +99,10 @@ box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.50);
 }
 @media(max-width:500px){
 
-    body{
-        background: url(./images/pattern-background-mobile.svg) no-repeat top center/contain;
+   body {
+        background: url("./images/pattern-background-mobile.svg")
+                    no-repeat top center / contain;
         background-color: var(--pale-blue);
-
     }
     #card>img{
         width:320px;
